@@ -7,7 +7,7 @@ spec:
   id: cluster-01
   compositionSelector:
     matchLabels:
-      provider: aws-official
+      provider: default
       cluster: eks
   parameters:
     nodeSize: small
